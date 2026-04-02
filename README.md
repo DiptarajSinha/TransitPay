@@ -41,6 +41,27 @@ Experience TransitPay on your Android device today!
 > [!NOTE]
 > Since this is a specialized transit app, you may need to enable "Install from Unknown Sources" in your Android settings to install the APK directly.
 
+## ⚙️ How It Works
+
+TransitPay simplifies the complex journey of public transit with a real-time, secure digital ecosystem.
+
+### 1. 🎟️ Smart Ticketing
+- **Purchase**: Riders buy "floating" tickets using their digital wallet. At this stage, the ticket isn't tied to a specific bus or route.
+- **Activation**: A unique QR code is generated instantly. This code remains `active` for 12 hours.
+
+### 2. 🛡️ Real-Time Verification
+- **Scanning**: When boarding, the conductor scans the rider's QR code using the **Conductor Portal**.
+- **Handshake**: The app performs a real-time handshake via **Supabase Realtime**. 
+- **Validation**: Once verified, the ticket status changes to `verified`, and the specific `route_no` and `vehicle_no` are permanently attached to the ticket record.
+
+### 3. 💳 Wallet & Balance
+- **Top-Ups**: Users securely add funds via **Stripe**.
+- **Transactions**: Every purchase and refund is logged in a transparent ledger, ensuring financial integrity.
+
+### 4. 📶 Offline-First Reliability
+- **Local Cache**: All active tickets are stored in an **encrypted Isar database** on the device.
+- **Auto-Sync**: Even if the network drops during travel, the app syncs the verification status as soon as connectivity is restored.
+
 ---
 
 ## ✨ Features
