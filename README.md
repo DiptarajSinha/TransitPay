@@ -6,6 +6,29 @@
 
 ---
 
+## 📱 Visual Showcase
+
+| Welcome & Role Selection | Rider Home & QR Ticket |
+| :---: | :---: |
+| ![Auth](assets/screenshots/auth.png) | ![Rider Home](assets/screenshots/rider_home.png) |
+
+| Conductor Scanner | Smart Wallet & Balance |
+| :---: | :---: |
+| ![Conductor](assets/screenshots/conductor_scanner.png) | ![Wallet](assets/screenshots/wallet.png) |
+
+---
+
+## 📥 Download & Install
+
+Experience TransitPay on your Android device today! 
+
+### 🤖 [Download Latest APK](https://github.com/DiptarajSinha/TransitPay/releases/latest)
+
+> [!NOTE]
+> Since this is a specialized transit app, you may need to enable "Install from Unknown Sources" in your Android settings to install the APK directly.
+
+---
+
 ## ✨ Features
 
 - 🎫 **Digital Ticketing**: Instant ticket purchase and secure QR-based validation.
