@@ -22,8 +22,10 @@ jobs:
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.11.4' # Match pubspec environment SDK
           channel: 'stable'
+          # Removed hardcoded version to ensure use of latest stable
+          # or we can set it to the local version 3.41.6
+          flutter-version: '3.41.6' 
 
       - name: Get dependencies
         run: flutter pub get
