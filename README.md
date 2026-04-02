@@ -8,13 +8,27 @@
 
 ## 📱 Visual Showcase
 
-| Welcome & Role Selection | Rider Home & QR Ticket |
-| :---: | :---: |
-| ![Auth](assets/screenshots/auth.png) | ![Rider Home](assets/screenshots/rider_home.png) |
+### 1. Welcome & Role Selection
+![Role Selection](assets/screenshots/role_selection.jpg)
 
-| Conductor Scanner | Smart Wallet & Balance |
+### 2. Login: Rider & Conductor
+| Rider Login | Conductor Login |
 | :---: | :---: |
-| ![Conductor](assets/screenshots/conductor_scanner.png) | ![Wallet](assets/screenshots/wallet.png) |
+| ![Rider Login](assets/screenshots/rider_login.jpg) | ![Conductor Login](assets/screenshots/conductor_login.jpg) |
+
+### 3. Dashboard: Rider & Conductor
+| Rider Dashboard | Conductor Dashboard |
+| :---: | :---: |
+| ![Rider Dashboard](assets/screenshots/rider_dashboard.jpg) | ![Conductor Dashboard](assets/screenshots/conductor_dashboard.jpg) |
+
+### 4. Boarding Points Selection
+![Boarding Points](assets/screenshots/boarding_points.jpg)
+
+### 5. My Tickets: Active & Expired
+![My Tickets](assets/screenshots/my_tickets.jpg)
+
+### 6. Smart Wallet
+![Wallet](assets/screenshots/wallet.jpg)
 
 ---
 
