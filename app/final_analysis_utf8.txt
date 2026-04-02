@@ -1,0 +1,50 @@
+﻿Analyzing app...                                                
+
+warning - Unused import: 'package:app/features/conductor/presentation/conductor_home_screen.dart' - lib\features\auth\presentation\role_selection_screen.dart:4:8 - unused_import
+warning - 'getByIndex' is experimental and could be removed or changed at any time - lib\features\conductor\data\models\conductor_shift_isar.g.dart:172:12 - experimental_member_use
+warning - 'getByIndexSync' is experimental and could be removed or changed at any time - lib\features\conductor\data\models\conductor_shift_isar.g.dart:176:12 - experimental_member_use
+warning - 'deleteByIndex' is experimental and could be removed or changed at any time - lib\features\conductor\data\models\conductor_shift_isar.g.dart:180:12 - experimental_member_use
+warning - 'deleteByIndexSync' is experimental and could be removed or changed at any time - lib\features\conductor\data\models\conductor_shift_isar.g.dart:184:12 - experimental_member_use
+warning - 'getAllByIndex' is experimental and could be removed or changed at any time - lib\features\conductor\data\models\conductor_shift_isar.g.dart:190:12 - experimental_member_use
+warning - 'getAllByIndexSync' is experimental and could be removed or changed at any time - lib\features\conductor\data\models\conductor_shift_isar.g.dart:195:12 - experimental_member_use
+warning - 'deleteAllByIndex' is experimental and could be removed or changed at any time - lib\features\conductor\data\models\conductor_shift_isar.g.dart:200:12 - experimental_member_use
+warning - 'deleteAllByIndexSync' is experimental and could be removed or changed at any time - lib\features\conductor\data\models\conductor_shift_isar.g.dart:205:12 - experimental_member_use
+warning - 'putByIndex' is experimental and could be removed or changed at any time - lib\features\conductor\data\models\conductor_shift_isar.g.dart:209:12 - experimental_member_use
+warning - 'putByIndexSync' is experimental and could be removed or changed at any time - lib\features\conductor\data\models\conductor_shift_isar.g.dart:213:12 - experimental_member_use
+warning - 'putAllByIndex' is experimental and could be removed or changed at any time - lib\features\conductor\data\models\conductor_shift_isar.g.dart:217:12 - experimental_member_use
+warning - 'putAllByIndexSync' is experimental and could be removed or changed at any time - lib\features\conductor\data\models\conductor_shift_isar.g.dart:222:12 - experimental_member_use
+warning - Unused import: 'package:app/features/conductor/data/repositories/conductor_repository.dart' - lib\features\conductor\presentation\conductor_home_screen.dart:6:8 - unused_import
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\conductor\presentation\pin_verification_screen.dart:182:37 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\features\conductor\presentation\qr_scanner_screen.dart:125:27 - use_build_context_synchronously
+warning - The '!' will have no effect because the receiver can't be null - lib\features\ticket\application\providers\ticket_provider.dart:49:59 - unnecessary_non_null_assertion
+warning - The '!' will have no effect because the receiver can't be null - lib\features\ticket\application\providers\ticket_provider.dart:50:24 - unnecessary_non_null_assertion
+warning - The '!' will have no effect because the receiver can't be null - lib\features\ticket\application\providers\ticket_provider.dart:63:42 - unnecessary_non_null_assertion
+warning - The '!' will have no effect because the receiver can't be null - lib\features\ticket\application\providers\ticket_provider.dart:64:57 - unnecessary_non_null_assertion
+warning - The '!' will have no effect because the receiver can't be null - lib\features\ticket\application\providers\ticket_provider.dart:131:42 - unnecessary_non_null_assertion
+warning - The '!' will have no effect because the receiver can't be null - lib\features\ticket\application\providers\ticket_provider.dart:139:21 - unnecessary_non_null_assertion
+warning - The '!' will have no effect because the receiver can't be null - lib\features\ticket\application\providers\ticket_provider.dart:153:42 - unnecessary_non_null_assertion
+warning - 'getByIndex' is experimental and could be removed or changed at any time - lib\features\ticket\data\models\ticket_isar.g.dart:248:12 - experimental_member_use
+warning - 'getByIndexSync' is experimental and could be removed or changed at any time - lib\features\ticket\data\models\ticket_isar.g.dart:252:12 - experimental_member_use
+warning - 'deleteByIndex' is experimental and could be removed or changed at any time - lib\features\ticket\data\models\ticket_isar.g.dart:256:12 - experimental_member_use
+warning - 'deleteByIndexSync' is experimental and could be removed or changed at any time - lib\features\ticket\data\models\ticket_isar.g.dart:260:12 - experimental_member_use
+warning - 'getAllByIndex' is experimental and could be removed or changed at any time - lib\features\ticket\data\models\ticket_isar.g.dart:265:12 - experimental_member_use
+warning - 'getAllByIndexSync' is experimental and could be removed or changed at any time - lib\features\ticket\data\models\ticket_isar.g.dart:270:12 - experimental_member_use
+warning - 'deleteAllByIndex' is experimental and could be removed or changed at any time - lib\features\ticket\data\models\ticket_isar.g.dart:275:12 - experimental_member_use
+warning - 'deleteAllByIndexSync' is experimental and could be removed or changed at any time - lib\features\ticket\data\models\ticket_isar.g.dart:280:12 - experimental_member_use
+warning - 'putByIndex' is experimental and could be removed or changed at any time - lib\features\ticket\data\models\ticket_isar.g.dart:284:12 - experimental_member_use
+warning - 'putByIndexSync' is experimental and could be removed or changed at any time - lib\features\ticket\data\models\ticket_isar.g.dart:288:12 - experimental_member_use
+warning - 'putAllByIndex' is experimental and could be removed or changed at any time - lib\features\ticket\data\models\ticket_isar.g.dart:292:12 - experimental_member_use
+warning - 'putAllByIndexSync' is experimental and could be removed or changed at any time - lib\features\ticket\data\models\ticket_isar.g.dart:296:12 - experimental_member_use
+   info - Unnecessary use of 'toList' in a spread - lib\features\ticket\presentation\ticket_list_screen.dart:62:88 - unnecessary_to_list_in_spreads
+   info - Unnecessary use of 'toList' in a spread - lib\features\ticket\presentation\ticket_list_screen.dart:68:88 - unnecessary_to_list_in_spreads
+   info - The imported package 'intl' isn't a dependency of the importing package - lib\features\ticket\presentation\ticket_screen.dart:6:8 - depend_on_referenced_packages
+   info - Use 'const' with the constructor to improve performance - lib\features\ticket\presentation\ticket_screen.dart:220:9 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\ticket\presentation\ticket_screen.dart:223:18 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\ticket\presentation\ticket_screen.dart:224:25 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\ticket\presentation\ticket_screen.dart:242:9 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\ticket\presentation\ticket_screen.dart:245:18 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\ticket\presentation\ticket_screen.dart:246:25 - prefer_const_constructors
+warning - Unused import: 'package:app/core/services/supabase_service.dart' - lib\features\wallet\application\providers\wallet_provider.dart:2:8 - unused_import
+  error - The argument type 'String?' can't be assigned to the parameter type 'String'.  - lib\features\wallet\application\providers\wallet_provider.dart:26:37 - argument_type_not_assignable
+warning - The stack trace variable 'st' isn't used and can be removed - lib\features\wallet\application\providers\wallet_provider.dart:40:17 - unused_catch_stack
+

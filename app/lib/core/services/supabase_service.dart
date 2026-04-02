@@ -1,0 +1,15 @@
+import 'package:supabase_flutter/supabase_flutter.dart';
+import '../constants/supabase_constants.dart';
+
+class SupabaseService {
+  static Future<void> init() async {
+    await Supabase.initialize(
+      url: SupabaseConstants.url,
+      anonKey: SupabaseConstants.anonKey,
+    );
+  }
+
+  SupabaseClient get client => Supabase.instance.client;
+
+  User? get currentUser => client.auth.currentUser;
+}

@@ -1,0 +1,60 @@
+﻿Analyzing app...                                                
+
+   info - Use 'const' with the constructor to improve performance - lib\features\auth\presentation\role_selection_screen.dart:38:57 - prefer_const_constructors
+warning - 'getByIndex' is experimental and could be removed or changed at any time - lib\features\conductor\data\models\conductor_shift_isar.g.dart:172:12 - experimental_member_use
+warning - 'getByIndexSync' is experimental and could be removed or changed at any time - lib\features\conductor\data\models\conductor_shift_isar.g.dart:176:12 - experimental_member_use
+warning - 'deleteByIndex' is experimental and could be removed or changed at any time - lib\features\conductor\data\models\conductor_shift_isar.g.dart:180:12 - experimental_member_use
+warning - 'deleteByIndexSync' is experimental and could be removed or changed at any time - lib\features\conductor\data\models\conductor_shift_isar.g.dart:184:12 - experimental_member_use
+warning - 'getAllByIndex' is experimental and could be removed or changed at any time - lib\features\conductor\data\models\conductor_shift_isar.g.dart:190:12 - experimental_member_use
+warning - 'getAllByIndexSync' is experimental and could be removed or changed at any time - lib\features\conductor\data\models\conductor_shift_isar.g.dart:195:12 - experimental_member_use
+warning - 'deleteAllByIndex' is experimental and could be removed or changed at any time - lib\features\conductor\data\models\conductor_shift_isar.g.dart:200:12 - experimental_member_use
+warning - 'deleteAllByIndexSync' is experimental and could be removed or changed at any time - lib\features\conductor\data\models\conductor_shift_isar.g.dart:205:12 - experimental_member_use
+warning - 'putByIndex' is experimental and could be removed or changed at any time - lib\features\conductor\data\models\conductor_shift_isar.g.dart:209:12 - experimental_member_use
+warning - 'putByIndexSync' is experimental and could be removed or changed at any time - lib\features\conductor\data\models\conductor_shift_isar.g.dart:213:12 - experimental_member_use
+warning - 'putAllByIndex' is experimental and could be removed or changed at any time - lib\features\conductor\data\models\conductor_shift_isar.g.dart:217:12 - experimental_member_use
+warning - 'putAllByIndexSync' is experimental and could be removed or changed at any time - lib\features\conductor\data\models\conductor_shift_isar.g.dart:222:12 - experimental_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\conductor\presentation\pin_verification_screen.dart:182:37 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\features\conductor\presentation\qr_scanner_screen.dart:125:27 - use_build_context_synchronously
+warning - The value of the field '_currentUserId' isn't used - lib\features\ticket\application\providers\ticket_provider.dart:20:11 - unused_field
+   info - The imported package 'json_annotation' isn't a dependency of the importing package - lib\features\ticket\data\models\ticket.dart:1:8 - depend_on_referenced_packages
+  error - Target of URI hasn't been generated: 'package:app/features/ticket/data/models/ticket_model.g.dart' - lib\features\ticket\data\models\ticket.dart:3:6 - uri_has_not_been_generated
+  error - Target of URI hasn't been generated: 'package:app/features/ticket/data/models/ticket.g.dart' - lib\features\ticket\data\models\ticket.dart:4:6 - uri_has_not_been_generated
+   info - 'nullable' is deprecated and shouldn't be used. Has no effect - lib\features\ticket\data\models\ticket.dart:14:33 - deprecated_member_use
+  error - The argument for the named parameter 'name' was already specified - lib\features\ticket\data\models\ticket.dart:23:32 - duplicate_named_argument
+  error - The method '_$TicketFromJson' isn't defined for the type 'Ticket' - lib\features\ticket\data\models\ticket.dart:35:57 - undefined_method
+  error - The method '_$TicketToJson' isn't defined for the type 'Ticket' - lib\features\ticket\data\models\ticket.dart:37:36 - undefined_method
+  error - The name 'Ticket' is already defined - lib\features\ticket\data\models\ticket.dart:41:7 - duplicate_definition
+   info - The variable name 'user_id' isn't a lowerCamelCase identifier - lib\features\ticket\data\models\ticket.dart:43:13 - non_constant_identifier_names
+   info - The variable name 'qr_code' isn't a lowerCamelCase identifier - lib\features\ticket\data\models\ticket.dart:46:16 - non_constant_identifier_names
+   info - The variable name 'route_no' isn't a lowerCamelCase identifier - lib\features\ticket\data\models\ticket.dart:48:14 - non_constant_identifier_names
+   info - The variable name 'vehicle_no' isn't a lowerCamelCase identifier - lib\features\ticket\data\models\ticket.dart:49:14 - non_constant_identifier_names
+   info - The variable name 'created_at' isn't a lowerCamelCase identifier - lib\features\ticket\data\models\ticket.dart:52:18 - non_constant_identifier_names
+   info - The variable name 'user_id' isn't a lowerCamelCase identifier - lib\features\ticket\data\models\ticket.dart:56:19 - non_constant_identifier_names
+   info - The variable name 'qr_code' isn't a lowerCamelCase identifier - lib\features\ticket\data\models\ticket.dart:59:19 - non_constant_identifier_names
+   info - The variable name 'route_no' isn't a lowerCamelCase identifier - lib\features\ticket\data\models\ticket.dart:61:10 - non_constant_identifier_names
+   info - The variable name 'vehicle_no' isn't a lowerCamelCase identifier - lib\features\ticket\data\models\ticket.dart:62:10 - non_constant_identifier_names
+   info - The variable name 'created_at' isn't a lowerCamelCase identifier - lib\features\ticket\data\models\ticket.dart:64:19 - non_constant_identifier_names
+  error - The name of a factory constructor must be the same as the name of the immediately enclosing class - lib\features\ticket\data\models\ticket.dart:67:11 - invalid_factory_name_not_a_class
+  error - The method '_$TicketFromJson' isn't defined for the type 'Ticket' - lib\features\ticket\data\models\ticket.dart:67:57 - undefined_method
+  error - The method '_$TicketToJson' isn't defined for the type 'Ticket' - lib\features\ticket\data\models\ticket.dart:69:36 - undefined_method
+warning - 'getByIndex' is experimental and could be removed or changed at any time - lib\features\ticket\data\models\ticket_isar.g.dart:230:12 - experimental_member_use
+warning - 'getByIndexSync' is experimental and could be removed or changed at any time - lib\features\ticket\data\models\ticket_isar.g.dart:234:12 - experimental_member_use
+warning - 'deleteByIndex' is experimental and could be removed or changed at any time - lib\features\ticket\data\models\ticket_isar.g.dart:238:12 - experimental_member_use
+warning - 'deleteByIndexSync' is experimental and could be removed or changed at any time - lib\features\ticket\data\models\ticket_isar.g.dart:242:12 - experimental_member_use
+warning - 'getAllByIndex' is experimental and could be removed or changed at any time - lib\features\ticket\data\models\ticket_isar.g.dart:247:12 - experimental_member_use
+warning - 'getAllByIndexSync' is experimental and could be removed or changed at any time - lib\features\ticket\data\models\ticket_isar.g.dart:252:12 - experimental_member_use
+warning - 'deleteAllByIndex' is experimental and could be removed or changed at any time - lib\features\ticket\data\models\ticket_isar.g.dart:257:12 - experimental_member_use
+warning - 'deleteAllByIndexSync' is experimental and could be removed or changed at any time - lib\features\ticket\data\models\ticket_isar.g.dart:262:12 - experimental_member_use
+warning - 'putByIndex' is experimental and could be removed or changed at any time - lib\features\ticket\data\models\ticket_isar.g.dart:266:12 - experimental_member_use
+warning - 'putByIndexSync' is experimental and could be removed or changed at any time - lib\features\ticket\data\models\ticket_isar.g.dart:270:12 - experimental_member_use
+warning - 'putAllByIndex' is experimental and could be removed or changed at any time - lib\features\ticket\data\models\ticket_isar.g.dart:274:12 - experimental_member_use
+warning - 'putAllByIndexSync' is experimental and could be removed or changed at any time - lib\features\ticket\data\models\ticket_isar.g.dart:278:12 - experimental_member_use
+warning - The operand can't be 'null', so the condition is always 'true' - lib\features\ticket\presentation\ticket_list_screen.dart:39:33 - unnecessary_null_comparison
+warning - The '!' will have no effect because the receiver can't be null - lib\features\ticket\presentation\ticket_list_screen.dart:41:34 - unnecessary_non_null_assertion
+warning - The operand can't be 'null', so the condition is always 'true' - lib\features\ticket\presentation\ticket_list_screen.dart:49:33 - unnecessary_null_comparison
+warning - The '!' will have no effect because the receiver can't be null - lib\features\ticket\presentation\ticket_list_screen.dart:51:34 - unnecessary_non_null_assertion
+warning - Unused import: 'dart:io' - lib\features\ticket\presentation\ticket_screen.dart:1:8 - unused_import
+warning - A value for optional parameter 'key' isn't ever given - lib\features\ticket\presentation\ticket_screen.dart:260:27 - unused_element_parameter
+   info - Use 'const' with the constructor to improve performance - lib\features\ticket\presentation\ticket_screen.dart:296:20 - prefer_const_constructors
+warning - Unused import: 'features/ticket/presentation/ticket_screen.dart' - lib\main.dart:9:8 - unused_import
+
